@@ -6,11 +6,13 @@ import List from "../Components/CoffeeList";
 import Detail from "../Components/CoffeeDetail";
 import Login from "../Components/Login";
 import Home from "../Components/HomePage";
+import ThankYou from "../Components/ThankYou";
 
 const OrderStack = createStackNavigator(
   {
     CoffeeCart: Cart,
-    OrderHistory: OrderHistory
+    OrderHistory: OrderHistory,
+    ThankYou: ThankYou
   },
   {
     initialRouteName: "CoffeeCart",
